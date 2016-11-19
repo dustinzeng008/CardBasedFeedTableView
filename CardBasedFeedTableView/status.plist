@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>icon1</string>
+		<key>name</key>
+		<string>范冰冰</string>
+		<key>location</key>
+		<string>北京</string>
+		<key>picture</key>
+		<string>picture1</string>
+		<key>onlineNumber</key>
+		<string>9680 在看</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>icon2</string>
+		<key>name</key>
+		<string>Danny</string>
+		<key>location</key>
+		<string>Miami</string>
+		<key>picture</key>
+		<string>picture2</string>
+		<key>onlineNumber</key>
+		<string>1096 在看</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>icon3</string>
+		<key>name</key>
+		<string>超人不会飞</string>
+		<key>location</key>
+		<string>New York</string>
+		<key>picture</key>
+		<string>picture3</string>
+		<key>onlineNumber</key>
+		<string>8430 在看</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>icon4</string>
+		<key>name</key>
+		<string>蜡笔小新</string>
+		<key>location</key>
+		<string>Japan</string>
+		<key>picture</key>
+		<string>picture4</string>
+		<key>onlineNumber</key>
+		<string>6843 在看</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>icon5</string>
+		<key>name</key>
+		<string>海绵宝宝</string>
+		<key>location</key>
+		<string>ShangHai</string>
+		<key>picture</key>
+		<string>picture5</string>
+		<key>onlineNumber</key>
+		<string>3209 在看</string>
+	</dict>
+</array>
+</plist>

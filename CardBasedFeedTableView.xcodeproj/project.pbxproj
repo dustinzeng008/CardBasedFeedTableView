@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		0465351C1DDAC7A30048981F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465351B1DDAC7A30048981F /* main.m */; };
 		0465351F1DDAC7A30048981F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465351E1DDAC7A30048981F /* AppDelegate.m */; };
-		046535221DDAC7A30048981F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535211DDAC7A30048981F /* ViewController.m */; };
-		046535251DDAC7A30048981F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046535231DDAC7A30048981F /* Main.storyboard */; };
 		046535271DDAC7A30048981F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046535261DDAC7A30048981F /* Assets.xcassets */; };
 		0465352A1DDAC7A30048981F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046535281DDAC7A30048981F /* LaunchScreen.storyboard */; };
 		046535351DDAC7A30048981F /* CardBasedFeedTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535341DDAC7A30048981F /* CardBasedFeedTableViewTests.m */; };
 		046535401DDAC7A30048981F /* CardBasedFeedTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465353F1DDAC7A30048981F /* CardBasedFeedTableViewUITests.m */; };
+		046535561DDAC8320048981F /* YZMomentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535551DDAC8320048981F /* YZMomentViewController.m */; };
+		046535591DDAD3F10048981F /* YZStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535581DDAD3F10048981F /* YZStatus.m */; };
+		0465355C1DDAD4040048981F /* YZStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465355B1DDAD4040048981F /* YZStatusFrame.m */; };
+		046535601DDADF570048981F /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0465355F1DDADF570048981F /* status.plist */; };
+		046535631DDC11DE0048981F /* YZStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046535621DDC11DE0048981F /* YZStatusTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +42,6 @@
 		0465351B1DDAC7A30048981F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0465351D1DDAC7A30048981F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0465351E1DDAC7A30048981F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		046535201DDAC7A30048981F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		046535211DDAC7A30048981F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		046535241DDAC7A30048981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		046535261DDAC7A30048981F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046535291DDAC7A30048981F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0465352B1DDAC7A30048981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,15 @@
 		0465353B1DDAC7A30048981F /* CardBasedFeedTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardBasedFeedTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0465353F1DDAC7A30048981F /* CardBasedFeedTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardBasedFeedTableViewUITests.m; sourceTree = "<group>"; };
 		046535411DDAC7A30048981F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046535541DDAC8320048981F /* YZMomentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMomentViewController.h; sourceTree = "<group>"; };
+		046535551DDAC8320048981F /* YZMomentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMomentViewController.m; sourceTree = "<group>"; };
+		046535571DDAD3F10048981F /* YZStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZStatus.h; sourceTree = "<group>"; };
+		046535581DDAD3F10048981F /* YZStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZStatus.m; sourceTree = "<group>"; };
+		0465355A1DDAD4040048981F /* YZStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZStatusFrame.h; sourceTree = "<group>"; };
+		0465355B1DDAD4040048981F /* YZStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZStatusFrame.m; sourceTree = "<group>"; };
+		0465355F1DDADF570048981F /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		046535611DDC11DE0048981F /* YZStatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZStatusTableViewCell.h; sourceTree = "<group>"; };
+		046535621DDC11DE0048981F /* YZStatusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZStatusTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +110,7 @@
 		046535191DDAC7A30048981F /* CardBasedFeedTableView */ = {
 			isa = PBXGroup;
 			children = (
-				0465351D1DDAC7A30048981F /* AppDelegate.h */,
-				0465351E1DDAC7A30048981F /* AppDelegate.m */,
-				046535201DDAC7A30048981F /* ViewController.h */,
-				046535211DDAC7A30048981F /* ViewController.m */,
-				046535231DDAC7A30048981F /* Main.storyboard */,
-				046535261DDAC7A30048981F /* Assets.xcassets */,
-				046535281DDAC7A30048981F /* LaunchScreen.storyboard */,
-				0465352B1DDAC7A30048981F /* Info.plist */,
+				0465354D1DDAC7CA0048981F /* classes */,
 				0465351A1DDAC7A30048981F /* Supporting Files */,
 			);
 			path = CardBasedFeedTableView;
@@ -138,6 +140,67 @@
 				046535411DDAC7A30048981F /* Info.plist */,
 			);
 			path = CardBasedFeedTableViewUITests;
+			sourceTree = "<group>";
+		};
+		0465354D1DDAC7CA0048981F /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				046535531DDAC8110048981F /* resources */,
+				046535521DDAC8050048981F /* others */,
+				046535501DDAC7D90048981F /* controller */,
+				0465354F1DDAC7D50048981F /* view */,
+				0465354E1DDAC7D10048981F /* model */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		0465354E1DDAC7D10048981F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				046535571DDAD3F10048981F /* YZStatus.h */,
+				046535581DDAD3F10048981F /* YZStatus.m */,
+				0465355A1DDAD4040048981F /* YZStatusFrame.h */,
+				0465355B1DDAD4040048981F /* YZStatusFrame.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0465354F1DDAC7D50048981F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				046535281DDAC7A30048981F /* LaunchScreen.storyboard */,
+				046535611DDC11DE0048981F /* YZStatusTableViewCell.h */,
+				046535621DDC11DE0048981F /* YZStatusTableViewCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		046535501DDAC7D90048981F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				046535541DDAC8320048981F /* YZMomentViewController.h */,
+				046535551DDAC8320048981F /* YZMomentViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		046535521DDAC8050048981F /* others */ = {
+			isa = PBXGroup;
+			children = (
+				0465351D1DDAC7A30048981F /* AppDelegate.h */,
+				0465351E1DDAC7A30048981F /* AppDelegate.m */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+		046535531DDAC8110048981F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				046535261DDAC7A30048981F /* Assets.xcassets */,
+				0465352B1DDAC7A30048981F /* Info.plist */,
+				0465355F1DDADF570048981F /* status.plist */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +265,7 @@
 		0465350F1DDAC7A30048981F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YZ;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Yong Zeng";
 				TargetAttributes = {
@@ -247,8 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0465352A1DDAC7A30048981F /* LaunchScreen.storyboard in Resources */,
+				046535601DDADF570048981F /* status.plist in Resources */,
 				046535271DDAC7A30048981F /* Assets.xcassets in Resources */,
-				046535251DDAC7A30048981F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +337,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046535221DDAC7A30048981F /* ViewController.m in Sources */,
+				046535631DDC11DE0048981F /* YZStatusTableViewCell.m in Sources */,
+				046535591DDAD3F10048981F /* YZStatus.m in Sources */,
+				0465355C1DDAD4040048981F /* YZStatusFrame.m in Sources */,
 				0465351F1DDAC7A30048981F /* AppDelegate.m in Sources */,
+				046535561DDAC8320048981F /* YZMomentViewController.m in Sources */,
 				0465351C1DDAC7A30048981F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +378,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		046535231DDAC7A30048981F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				046535241DDAC7A30048981F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		046535281DDAC7A30048981F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

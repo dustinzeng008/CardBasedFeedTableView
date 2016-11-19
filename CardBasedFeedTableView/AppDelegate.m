@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YZMomentViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    YZMomentViewController* momentViewController = [[YZMomentViewController alloc] init];
+    UINavigationController* nagivationController = [[UINavigationController alloc] initWithRootViewController:momentViewController];
+    self.window.rootViewController = nagivationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
